@@ -1,12 +1,44 @@
 .container {
   div {
-    width: 800px;
-    margin: 0 auto;
-    margin-top: 20%;
-    a {
-      font-size: 6rem;
-      text-decoration: none;
-      color: black;
+    h2 {
+      font-family: 'Dosis', 'Lato', sans-serif;
+      font-weight: 200;
+      width: 100%;
+      overflow: hidden;
+      text-transform: uppercase;
+      margin: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      letter-spacing: 14px;
+      text-align: center;
+      height: 100%;
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      -ms-flex-direction: row;
+      -webkit-box-pack: center;
+      -moz-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      a {
+        font-size: 6rem;
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
+
+@-moz-document url-prefix() {
+  .container {
+    div {
+      h2 {
+        height: 60%;
+        padding-top: 280px;
+      }
     }
   }
 }
@@ -16,6 +48,40 @@
     div {
       width: 500px;
       text-align: center;
+    }
+  }
+}
+
+@media(max-width: 590px) {
+  .container {
+    div {
+      h2 {
+        a {
+          font-size: 5rem;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 490px) {
+  .container {
+    div {
+      h2 {
+        a {
+          font-size: 4rem;
+        }
+      }
+    }
+  }
+}
+@media(max-width: 400px) {
+  .container {
+    div {
+      h2 {
+        a {
+          font-size: 3rem;
+        }
+      }
     }
   }
 }
