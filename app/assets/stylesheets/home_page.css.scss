@@ -32,6 +32,17 @@
   }
 }
 
+@-moz-document url-prefix() {
+  .container {
+    div {
+      h2 {
+        height: 60%;
+        padding-top: 280px;
+      }
+    }
+  }
+}
+
 @media(max-width: 800px) {
   .container {
     div {
