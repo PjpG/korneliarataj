@@ -1,0 +1,21 @@
+.container {
+  div {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20%;
+    a {
+      font-size: 6rem;
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+
+@media(max-width: 800px) {
+  .container {
+    div {
+      width: 500px;
+      text-align: center;
+    }
+  }
+}
