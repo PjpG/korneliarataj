@@ -18,5 +18,5 @@
 
 
 # Env files
-.rmvrc*
+.rvmrc*
 .powrc*
