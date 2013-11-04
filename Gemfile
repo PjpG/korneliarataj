@@ -38,6 +38,9 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+
+gem 'rack-google-analytics'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

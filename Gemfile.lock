@@ -55,6 +55,7 @@ GEM
     pg (0.15.1)
     polyglot (0.3.3)
     rack (1.5.2)
+    rack-google-analytics (0.12.0)
     rack-test (0.6.2)
       rack (>= 1.0)
     rails (4.0.0.rc2)
@@ -118,6 +119,7 @@ DEPENDENCIES
   jbuilder (~> 1.2)
   jquery-rails
   pg
+  rack-google-analytics
   rails (= 4.0.0.rc2)
   rails_12factor
   sass-rails (~> 4.0.0.rc2)
